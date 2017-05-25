@@ -1,0 +1,15 @@
+extends layout
+
+block content
+  .container
+    h2 Login
+    h4 #{message}
+    form(role='form', action="/login", method="post")
+      .form-group
+        input.form-control(type='text', name="username", placeholder='Enter Username')
+      .form-group
+        input.form-control(type='password', name="password", placeholder='Password')
+      .btn-container
+        button.btn.btn-submit(type='submit') Submit
+        a(href='/')
+          button.btn.btn-cancel(type="button") Cancel

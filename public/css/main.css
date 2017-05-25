@@ -1,0 +1,310 @@
+@font-face {
+  font-family: 'Targa';
+  src: url("fonts/Targa MS.eot");
+  src: url("fonts/Targa MS.woff2") format("woff2"), url("fonts/Targa MS.eot?#iefix") format("embedded-opentype"), url("fonts/TargaMS.woff") format("woff"), url("fonts/TargaMS.ttf") format("truetype"), url("fonts/TargaMS.svg#TargaMS") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 14, ../../styles/sass/main.scss */
+html {
+  background: black;
+  background: url("../img/night-bg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-size: 20px;
+}
+@media (max-width: 600px) {
+  /* line 14, ../../styles/sass/main.scss */
+  html {
+    font-size: 16px;
+  }
+}
+
+/* line 25, ../../styles/sass/main.scss */
+body {
+  font-family: "Targa", serif;
+  color: white;
+}
+
+/* General Rules */
+/* line 32, ../../styles/sass/main.scss */
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/* line 37, ../../styles/sass/main.scss */
+h1 {
+  font-family: "Targa", serif;
+  color: #f3fc45;
+  font-size: 4rem;
+  font-weight: 700;
+  transform: rotate(4deg);
+  display: inline-block;
+  margin: 30px auto;
+}
+@media (max-width: 600px) {
+  /* line 37, ../../styles/sass/main.scss */
+  h1 {
+    margin-top: 50px;
+  }
+}
+
+/* line 50, ../../styles/sass/main.scss */
+h2 {
+  font-family: "Targa", serif;
+  color: #f3fc45;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+/* line 57, ../../styles/sass/main.scss */
+h3 {
+  font-family: "Targa", serif;
+  font-size: 1.5rem;
+  color: #f3fc45;
+  border-bottom: solid 3px #f3fc45;
+}
+
+/* line 64, ../../styles/sass/main.scss */
+h4 {
+  text-transform: uppercase;
+}
+
+/* line 68, ../../styles/sass/main.scss */
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 74, ../../styles/sass/main.scss */
+input {
+  background: none;
+  border: none;
+  border-bottom: solid 2px #f3fc45;
+  color: white;
+  font-family: "Targa", serif;
+}
+
+/*Container*/
+/* line 84, ../../styles/sass/main.scss */
+.container {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*Buttons*/
+/* line 93, ../../styles/sass/main.scss */
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* line 99, ../../styles/sass/main.scss */
+.btn {
+  background: black;
+  color: #f3fc45;
+  font-family: "Targa", serif;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  border: solid 2px #f3fc45;
+  padding: 5px;
+}
+
+/* line 110, ../../styles/sass/main.scss */
+.btn-submit:hover {
+  color: #f9fea9;
+  border: solid 2px #f9fea9;
+}
+
+/* line 116, ../../styles/sass/main.scss */
+#going-btn {
+  cursor: pointer;
+}
+
+/* line 120, ../../styles/sass/main.scss */
+.btn-cancel {
+  color: #b81818;
+  border: solid 2px #b81818;
+}
+/* line 123, ../../styles/sass/main.scss */
+.btn-cancel:hover {
+  color: #e53838;
+  border: solid 2px #e53838;
+}
+
+/*Index Page*/
+/* line 131, ../../styles/sass/main.scss */
+.welcome {
+  position: absolute;
+  top: 10px;
+  right: 0;
+}
+/* line 135, ../../styles/sass/main.scss */
+.welcome > a {
+  margin: 0 20px 0 0;
+  color: #f3fc45;
+  text-transform: uppercase;
+}
+/* line 139, ../../styles/sass/main.scss */
+.welcome > a:hover {
+  color: #f9fea9;
+}
+/* line 144, ../../styles/sass/main.scss */
+.welcome > p {
+  margin: 0 20px 0 0;
+  display: inline-block;
+}
+
+/* line 150, ../../styles/sass/main.scss */
+.input-container {
+  display: flex;
+  align-items: center;
+  color: #f3fc45;
+}
+@media (max-width: 550px) {
+  /* line 150, ../../styles/sass/main.scss */
+  .input-container {
+    flex-direction: column;
+  }
+}
+/* line 158, ../../styles/sass/main.scss */
+.input-container p {
+  font-size: 1.5rem;
+}
+@media (max-width: 600px) {
+  /* line 158, ../../styles/sass/main.scss */
+  .input-container p {
+    margin: 5px 0 15px;
+  }
+}
+/* line 165, ../../styles/sass/main.scss */
+.input-container input {
+  font-size: 1.5rem;
+  margin-left: 20px;
+  text-transform: uppercase;
+  width: 220px;
+}
+@media (max-width: 600px) {
+  /* line 172, ../../styles/sass/main.scss */
+  .input-container img {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+/* line 180, ../../styles/sass/main.scss */
+.bar-list {
+  width: 70%;
+  margin: 30px auto;
+}
+@media (max-width: 700px) {
+  /* line 180, ../../styles/sass/main.scss */
+  .bar-list {
+    width: 90%;
+  }
+}
+
+/* line 188, ../../styles/sass/main.scss */
+.bar {
+  font-size: 1.5rem;
+  display: flex;
+  width: 100%;
+  background: #000000;
+  color: #f3fc45;
+  margin-bottom: 15px;
+  border: solid 2px #f3fc45;
+}
+/* line 196, ../../styles/sass/main.scss */
+.bar img {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+}
+@media (max-width: 550px) {
+  /* line 196, ../../styles/sass/main.scss */
+  .bar img {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+/* line 207, ../../styles/sass/main.scss */
+.details-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+}
+
+/* line 214, ../../styles/sass/main.scss */
+.bar-name {
+  text-transform: uppercase;
+  margin: 10px 20px;
+}
+@media (max-width: 400px) {
+  /* line 214, ../../styles/sass/main.scss */
+  .bar-name {
+    margin: 5px;
+  }
+}
+
+/* line 222, ../../styles/sass/main.scss */
+.bar-price {
+  margin: 10px 20px;
+}
+@media (max-width: 400px) {
+  /* line 222, ../../styles/sass/main.scss */
+  .bar-price {
+    margin: 5px;
+  }
+}
+
+/* line 229, ../../styles/sass/main.scss */
+.star-container {
+  width: 200px;
+}
+@media (max-width: 480px) {
+  /* line 229, ../../styles/sass/main.scss */
+  .star-container {
+    display: none;
+  }
+}
+
+/* line 236, ../../styles/sass/main.scss */
+.going {
+  text-align: center;
+  margin: 20px;
+}
+@media (max-width: 400px) {
+  /* line 236, ../../styles/sass/main.scss */
+  .going {
+    margin: 5px;
+  }
+}
+
+/* line 244, ../../styles/sass/main.scss */
+.attending {
+  margin: 5px;
+  color: #15c2ad;
+}
+
+/*Login/Register Page*/
+/* line 250, ../../styles/sass/main.scss */
+.form-control {
+  font-size: 1.5rem;
+  padding: 5px;
+  margin: 10px 0;
+}
+
+/* line 256, ../../styles/sass/main.scss */
+.btn-container {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
