@@ -280,6 +280,7 @@ button {
 .going {
   text-align: center;
   margin: 20px;
+  cursor: pointer;
 }
 @media (max-width: 400px) {
   /* line 236, ../../styles/sass/main.scss */
@@ -288,21 +289,21 @@ button {
   }
 }
 
-/* line 244, ../../styles/sass/main.scss */
+/* line 245, ../../styles/sass/main.scss */
 .attending {
   margin: 5px;
   color: #15c2ad;
 }
 
 /*Login/Register Page*/
-/* line 250, ../../styles/sass/main.scss */
+/* line 251, ../../styles/sass/main.scss */
 .form-control {
   font-size: 1.5rem;
   padding: 5px;
   margin: 10px 0;
 }
 
-/* line 256, ../../styles/sass/main.scss */
+/* line 257, ../../styles/sass/main.scss */
 .btn-container {
   margin-top: 10px;
   display: flex;

@@ -236,6 +236,7 @@ button {
 .going {
   text-align: center;
   margin: 20px;
+  cursor: pointer;
   @media (max-width: 400px) {
     margin: 5px;
   }
