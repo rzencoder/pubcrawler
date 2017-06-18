@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Targa';
+  src: url('fonts/Targa MS.eot');
+  src: url('fonts/Targa MS.woff2') format('woff2'), url('fonts/Targa MS.eot?#iefix') format('embedded-opentype'), url('fonts/TargaMS.woff') format('woff'), url('fonts/TargaMS.ttf') format('truetype'), url('fonts/TargaMS.svg#TargaMS') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+$main-color: #F3FC45;
+$main-hover: lighten($main-color, 20%);
+$bg-color: black;
+$serif-font: 'Targa', serif;

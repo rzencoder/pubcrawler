@@ -1,0 +1,65 @@
+@import 'variables';
+
+.gm-style .gm-style-iw {
+  background-color: black;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  min-height: 60px !important;
+  display: block !important;
+  color: black;
+}
+
+/*style the p tag*/
+.gm-style .gm-style-iw #google-popup p {
+  padding: 10px;
+}
+
+.gm-style-iw div:first-child {
+  overflow: visible !important;
+  div {
+    overflow: visible !important;
+  }
+}
+
+/*style the arrow*/
+.gm-style div div div div div div div div {
+  background-color: black !important;
+  padding: 0;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  color: black;
+  font-size: 16px;
+}
+
+/*style the link*/
+.gm-style div div div div div div div div a {
+  color: black;
+  font-weight: bold;
+}
+
+.info-wnd-content {
+  font-family: $serif-font;
+  padding: 5px;
+  h4 {
+    font-size: 1rem;
+    color: $main-color;
+    text-transform: uppercase;
+    margin: 0;
+    padding-left: 5px;
+  }
+  p {
+    margin: 0;
+    color: white;
+    padding-left: 5px;
+  }
+  img {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    width: 80px;
+    height: 80px;
+  }
+}

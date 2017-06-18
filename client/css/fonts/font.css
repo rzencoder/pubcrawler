@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'Targa MS';
+  src: url('Targa MS.eot');
+  src: url('Targa MS.woff2') format('woff2'),
+       url('Targa MS.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TargaMS';
+  src: url('TargaMS.woff') format('woff'),
+       url('TargaMS.ttf') format('truetype'),
+       url('TargaMS.svg#TargaMS') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+

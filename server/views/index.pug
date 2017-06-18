@@ -1,0 +1,39 @@
+extends layout
+
+block content
+  div.header
+    h1.title PUBCRAWLER
+    div.welcome
+      if (!user)
+        a(href="/login") Login
+        a(href="/register") Register
+      if (user)
+        p Welcome 
+          span #{user.username}
+        a(href="/logout") Logout
+    .input-container
+      p PLAN A NIGHT IN
+      form(id="search")
+        input(placeholder="MANCHESTER" id="search-input")
+        button(type="submit" id="search" value="")
+          img(src="/img/arrows.png")
+          
+  div.results-container
+    .loader
+      .glasses
+        .wineglass.left
+          .top
+        .wineglass.right
+          .top
+          
+    ul.bar-list 
+    .out
+      div#map          
+    
+  if (user)
+    script(type="text/javascript") var user = !{JSON.stringify(user)};
+  if (!user)
+    script(type="text/javascript") var user = !{JSON.stringify(null)};
+  script(src="js/cookies.js")
+  script(src="js/star-template.js")  
+  script(src="js/indexpage.js" defer)
